@@ -9,16 +9,11 @@ export default function Login() {
         event.preventDefault()
         axios.post('http://localhost:9000/api/login', login)
             .then(function (response) {
-                // handle success
                 console.log(response);
-                localStorage.setItem("token", login);
+                localStorage.setItem("token", response.data.token);
             })
             .catch(function (error) {
-                // handle error
                 console.log(error);
-            })
-            .finally(function () {
-                // always executed
             });
     }
 
