@@ -3,7 +3,6 @@ import axios from 'axios';
 
 export default function Login() {
     const [login, setLogin] = useState({ username: 'workintech', password: 'wecandoit' });
-    console.log(login)
 
     const submit = (event) => {
         event.preventDefault()
