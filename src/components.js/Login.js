@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Login() {
     return (
-        <div class="Login">
+        <div className="Login">
             <h2>LOGIN</h2>
             <label>
                 <h3>Username</h3>
