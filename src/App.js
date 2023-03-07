@@ -2,13 +2,12 @@ import './App.css';
 import Login from './components.js/Login';
 import Friendslist from './components.js/Friendslist';
 import Addfriends from './components.js/Addfriends';
+import Header from './components.js/Header';
 
 function App() {
   return (
     <div>
-      <div className="App">
-        <h1>Client Auth Projesi: Friends</h1>
-      </div>
+      <Header />
       <div>
         <Login />
         <Friendslist />
