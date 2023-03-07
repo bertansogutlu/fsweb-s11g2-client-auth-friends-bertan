@@ -5,11 +5,11 @@ export default function Addfriends() {
         <div className="Addfriends">
             <h2>ADD FRIEND</h2>
             <label>
-                <h3>Username</h3>
+                <h3>FRIEND NAME</h3>
                 <input></input>
             </label>
             <label>
-                <h3>Password</h3>
+                <h3>FRIEND EMAIL</h3>
                 <input></input>
             </label>
             <button>
