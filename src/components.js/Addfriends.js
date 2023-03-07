@@ -4,7 +4,7 @@ export default function Addfriends() {
     const titleText = `Lorem ipsum dolor sit amet`;
     return (
         <div className="Addfriends">
-            <h2>LOGIN</h2>
+            <h2>ADD FRIEND</h2>
             <label>
                 <h3>Username</h3>
                 <input></input>
