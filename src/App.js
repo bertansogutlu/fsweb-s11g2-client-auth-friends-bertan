@@ -3,7 +3,7 @@ import Login from './components.js/Login';
 import Friendslist from './components.js/Friendslist';
 import Addfriends from './components.js/Addfriends';
 import Header from './components.js/Header';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (

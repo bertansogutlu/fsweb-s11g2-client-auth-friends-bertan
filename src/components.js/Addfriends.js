@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function Addfriends() {
-    const titleText = `Lorem ipsum dolor sit amet`;
     return (
         <div className="Addfriends">
             <h2>ADD FRIEND</h2>
